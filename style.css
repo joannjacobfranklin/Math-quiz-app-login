@@ -1,8 +1,8 @@
-body{
+#quiz_game_login_body{
    background-image: url("Beautiful_Desktop_Background_Design_Photo.jpg");
-   background-size: 1500px;
+  background-size: 1500px;
    background-position: center;
-   text-align: center;
+   text-align: center; 
   
 }
 
@@ -24,3 +24,121 @@ label{
     color: rgb(255, 0, 0);
     font-family: monospace;
 }
+
+#quiz_game_body{
+    background-image: url("400_F_278254113_OxF1aAwvebLasCHjhhXM0YPtprvhelLt.jpg");
+    background-size: 1500px;
+    background-position: center;    
+}
+
+
+#player_1_name{
+    
+    
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-style:bold;
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
+
+#player_1_score{
+
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#player_2_name{
+
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-style:bold;
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
+
+#player_2_score{
+
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#heading{
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+ color: rgb(25, 0, 255);
+  font-size: 40px;
+
+}
+
+#question_turn{
+    display:inline;
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+    
+}
+
+#question_turn_name{
+    color: darkviolet;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#Answer_turn{
+    display:inline;
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+    margin-left: 10px;
+}
+
+#Answer_turn_name{
+    color: darkviolet;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#output{
+    
+    
+    height: 100%;
+    background-color: white; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top-color: red;
+    border-top-width: 10px;
+    border-top-style:groove;
+    border-bottom-color: rgb(4, 0, 255);
+    border-bottom-width: 10px;
+    border-bottom-style:groove;
+
+}
+
+#question{
+    
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:cursive;
+    
+}
+
+#answer_h4{
+    display: inline-block;
+    color: indigo;
+    font-style: italic;
+}
+
+
+
